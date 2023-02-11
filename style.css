@@ -1,0 +1,70 @@
+:root {
+    /* --pcolor: #FDC435; */
+    --pcolor: rgb(20, 32, 48);
+    --ptext: #1d1d1d;
+    --stext: #666666;
+}
+
+* {
+    font-family: 'sf pro display', 'roboto';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {}
+
+body {
+    border: 2px solid white;
+    height: 100vh;
+}
+
+.game-tittle {
+    text-align: center;
+    margin: 2rem;
+    text-transform: uppercase;
+}
+
+/* game-container style  */
+.game-container {
+    min-height: 20rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.output {
+    margin: 0px 5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.output h1 {
+}
+
+.output img {
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+}
+
+/* result  */
+#result {
+    text-align: center;
+    margin: 1rem;
+}
+#description{text-align: center; margin: 1rem;}
+
+/* buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.buttons button {
+    margin: 1rem;
+    padding: 1rem 2.5rem;
+}
