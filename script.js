@@ -32,7 +32,7 @@
                  reason.innerHTML =  "You Both are same 😂"
                  }
 
-             else if( userChoise === 0 && computerChoise === 1)
+                else if( userChoise === 0 && computerChoise === 1)
                 { result.innerHTML =  "Sorry😒, You LOSE."
                  reason.innerHTML =  "Paper covers rock"}
                  
